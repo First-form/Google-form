@@ -33,12 +33,12 @@
          </div>
     </div>
     <script>
-       let a=prompt('enter first number');
+       let a=parseInt(prompt('enter first number'));
 
-       let b=prompt('enter other numbeer');
-
-       console.log(a);
-       console.log(b);
+       let b=parseInt(prompt('enter other numbeer'));
+       const c=a+b;
+       console.log('here it is',+c);
+       
        function add()
        {
         const res=document.getElementById('result');
