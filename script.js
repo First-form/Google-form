@@ -53,5 +53,9 @@ function loadQuiz(){
  }
 
  function chutiya(){
-     console.log(mc bhim);
+     console.log("mc bhim");
+ }
+
+ const submit=()=>{
+    document.write("you have submiited successfully");
  }
